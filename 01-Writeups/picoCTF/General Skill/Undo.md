@@ -29,7 +29,7 @@ $ command ở đây
 
 ## Flag
 
-`FLAG{aaaa}`
+`FLAG{REDACTED}`
 
 ## Tools Used
 
