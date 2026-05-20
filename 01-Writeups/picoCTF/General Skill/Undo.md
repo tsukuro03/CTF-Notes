@@ -9,38 +9,30 @@ tags:
   - general_skill
 solved: true
 ---
+# Challenge Name: Undo
+## Challenge Description
+Can you reverse a series of Linux text transformations to recover the original flag?
 
-# Challenge Name
+## Solution
 
-## Mô tả
-
-> Paste đề bài ở đây
-
-## Phân tích ban đầu
-
-- Nhận ra điều gì đầu tiên?
-- Dạng bài gì?
-
-## Các bước giải
-
-### Bước 1:
+### Step 1: Access Instance
 
 ```bash
-$ command ở đây
+$ nc <server_of_challenge> <port_of_challenge>
 ```
 
+### Step 2: 
+-After accessing the instance, we will answer a series of questions in steps provided by the instance, which is this challenge:
+![[Pasted image 20260520235041.png]]
+![[Pasted image 20260520235257.png]]
+![[Pasted image 20260521001615.png]]
+![[Pasted image 20260521001824.png]]
+![[Pasted image 20260521002003.png]]
 ## Flag
 
 `FLAG{REDACTED}`
 
-## Tools Used
-
-| Tool | Mục đích |
-|------|----------|
-| Wireshark | Phân tích pcap |
-
 ## Takeaway
+- This article mainly focuses on text manipulation techniques in Linux; you can find a list of text manipulation techniques here.[[Linux-Text-Manipulation]]
 
-- Học được gì?
-- Lần sau làm khác gì?
 

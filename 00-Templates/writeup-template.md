@@ -1,27 +1,27 @@
 ---
-platform: picoCTF # picoCTF / HTB / CTFtime
-category: General Skill # Web / Crypto / Forensics / Pwn / Rev
+platform: picoCTF
+category: General Skill
 difficulty: Medium
 points: 300
 date: 2024-03-25
-tags: [ctf, forensics, pcap, smtp, general_skill]
+tags:
+  - ctf
+  - general_skill
 solved: true
 ---
-
-# Challenge Name
-
-## Mô tả
+# Challenge Name: Undo
+## Challenge Description
 
 > Paste đề bài ở đây
 
-## Phân tích ban đầu
+## Initial Analysis
 
 - Nhận ra điều gì đầu tiên?
 - Dạng bài gì?
 
-## Các bước giải
+## Solution
 
-### Bước 1:
+### Step 1:
 
 ```bash
 $ command ở đây

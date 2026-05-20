@@ -9,7 +9,14 @@ SORT date DESC
 ```
 
 ---
-
+## General Skill
+```dataview
+TABLE platform, date, points, tags
+FROM "01-Writeups"
+WHERE category = "General Skill" AND solved = true
+SORT points DESC
+```
+---
 ## Forensics
 
 ```dataview
