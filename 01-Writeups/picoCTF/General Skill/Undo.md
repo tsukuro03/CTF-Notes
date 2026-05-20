@@ -29,7 +29,7 @@ $ command ở đây
 
 ## Flag
 
-`picoCTF{aaaa}`
+`picoCTF{aa}`
 
 ## Tools Used
 
