@@ -31,7 +31,14 @@ $ command ở đây
 
 `picoCTF{...}`
 
+## Tools Used
+
+| Tool | Mục đích |
+|------|----------|
+| Wireshark | Phân tích pcap |
+
 ## Takeaway
 
 - Học được gì?
 - Lần sau làm khác gì?
+
