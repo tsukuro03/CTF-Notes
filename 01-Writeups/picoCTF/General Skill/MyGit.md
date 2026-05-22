@@ -21,7 +21,7 @@ I have built my own Git server with my own rules!
 
 ### Step 1: Clone the repository
 - The challenge provided the following instructions:
-![](../../../05-Assets/Pasted%20image%2020260522204414.png)
+![](05-Assets/Pasted%20image%2020260522204414.png)
 - We clone the repository:
 ```bash
 git clone ssh://git@foggy-cliff.picoctf.net:62275/git/challenge.git
@@ -34,13 +34,13 @@ cd challenge
 ls
 ```
 - Output:
-![](../../../05-Assets/Pasted%20image%2020260522205042.png)
+![](05-Assets/Pasted%20image%2020260522205042.png)
 - Reading the README.md:
 ```bash
 cat README.md
 ```
 - Result:
-![](../../../05-Assets/Pasted%20image%2020260522205203.png)
+![](05-Assets/Pasted%20image%2020260522205203.png)
 - As shown in the README file, we need to push the flag.txt file as username root and the email address root@picoctf.
 ### Step 3: Configure Git Identity
 - Set the Git username and email to match the required identity:
@@ -63,20 +63,20 @@ echo "requesting flag" > flag.txt
 git add flag.txt  
 git commit -m "push flag as root"
 ```
-![](../../../05-Assets/Pasted%20image%2020260522205730.png)
+![](05-Assets/Pasted%20image%2020260522205730.png)
 ### Step 5: 
 - Check the current branch:
 ```bash
 git branch
 ```
 - Output:
-![](../../../05-Assets/Pasted%20image%2020260522210011.png)
+![](05-Assets/Pasted%20image%2020260522210011.png)
 - The default branch was master, not main, so we pushed to master:
 ```bash
 git push origin master
 ```
 - Output
-![](../../../05-Assets/Pasted%20image%2020260522210159.png)
+![](05-Assets/Pasted%20image%2020260522210159.png)
 
 ## Flag
 
