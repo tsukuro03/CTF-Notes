@@ -21,6 +21,7 @@ I have built my own Git server with my own rules!
 
 ### Step 1: Clone the repository
 - The challenge provided the following instructions:
+
 ![](05-Assets/Pasted%20image%2020260522204414.png)
 - We clone the repository:
 ```bash
@@ -34,12 +35,14 @@ cd challenge
 ls
 ```
 - Output:
+
 ![](05-Assets/Pasted%20image%2020260522205042.png)
 - Reading the README.md:
 ```bash
 cat README.md
 ```
 - Result:
+
 ![](05-Assets/Pasted%20image%2020260522205203.png)
 - As shown in the README file, we need to push the flag.txt file as username root and the email address root@picoctf.
 ### Step 3: Configure Git Identity
