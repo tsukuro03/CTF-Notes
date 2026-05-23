@@ -23,7 +23,8 @@ solved: true
 ```bash
 $ nc -vz mysterious-sea.picoctf.net <port>
 ```
-- Output
+- Output:
+
 ![](../../../05-Assets/Pasted%20image%2020260523154243.png)
 - Port open => The printer service was online
 ### Step 2: List SMB shares
@@ -33,6 +34,7 @@ $ nc -vz mysterious-sea.picoctf.net <port>
 smbclient -L //mysterious-sea.picoctf.net -p <port> -N
 ```
 - Output:
+
 ![](../../../05-Assets/Pasted%20image%2020260523160040.png)
 =>This showed the correct share name: shares.
 ### Step 3: Connect to the public shares
@@ -63,6 +65,7 @@ exit
 cat flag.txt
 ```
 - Output:
+
 ![](../../../05-Assets/Pasted%20image%2020260523160822.png)
 ## Flag
 `FLAG{REDACTED}`
