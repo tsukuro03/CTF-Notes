@@ -36,6 +36,7 @@ smbclient -L //mysterious-sea.picoctf.net -p <port> -N
 - Output:
 
 ![](../../../05-Assets/Pasted%20image%2020260523160040.png)
+
 =>This showed the correct share name: shares.
 ### Step 3: Connect to the public shares
 - We connect to the share using:
