@@ -1,3 +1,74 @@
+---
+platform: TryHackMe
+category: General Skill
+difficulty: Medium
+points: 300
+date: 2024-03-25
+tags:
+  - LFI
+  - ctf
+  - Enumeration
+  - Privilege_escalation_on_Linux
+solved: true
+---
+# Challenge Name: Team
+## Challenge Description
+
+> Paste đề bài ở đây
+
+## Initial Analysis
+
+- Nhận ra điều gì đầu tiên?
+- Dạng bài gì?
+
+## Solution
+
+### Step 1:
+
+```bash
+$ command ở đây
+```
+
+## Flag
+
+`FLAG{REDACTED}`
+
+## Tools Used
+
+| Tool | Mục đích |
+|------|----------|
+| Wireshark | Phân tích pcap |
+
+## Takeaway
+
+- Học được gì?
+- Lần sau làm khác gì?
+
+---
+platform: TryHackMe
+category: General Skill
+difficulty: Medium
+points: 
+date: 2026-06-22
+tags:
+  - ctf
+  - general_skill
+  - Local File Inclusion(LFI)
+  - Privilege escalation on Linux
+solved: true
+---
+# Challenge Name: Undo
+## Challenge Description
+
+> Paste đề bài ở đây
+
+## Initial Analysis
+
+- Nhận ra điều gì đầu tiên?
+- Dạng bài gì?
+
+## Solution
+
 ![](../../05-Assets/Pasted%20image%2020260606172054.png)
 ![](../../05-Assets/Pasted%20image%2020260606172210.png)
 ![](../../05-Assets/Pasted%20image%2020260606172408.png)
@@ -30,3 +101,20 @@
 ![](../../05-Assets/Pasted%20image%2020260606194851.png)
 ![](../../05-Assets/Pasted%20image%2020260606195010.png)
 ![](../../05-Assets/Pasted%20image%2020260606195030.png)
+
+
+## Flag
+
+`FLAG{REDACTED}`
+
+## Tools Used
+
+| Tool | Mục đích |
+|------|----------|
+| Wireshark | Phân tích pcap |
+
+## Takeaway
+
+- Học được gì?
+- Lần sau làm khác gì?
+

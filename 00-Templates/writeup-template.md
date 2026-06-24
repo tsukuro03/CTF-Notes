@@ -7,6 +7,9 @@ date: 2024-03-25
 tags:
   - ctf
   - general_skill
+  - LFI
+  - Privilege_escalation_on_Linux
+  - Enumeration
 solved: true
 ---
 # Challenge Name: Undo

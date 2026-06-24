@@ -1,4 +1,3 @@
-# Note: All content in this file was generated using Claude Sonnet 4.6, so please read and check carefully before use.
 ## SMB Attack Vectors — Concepts & Explanations
 
 > **Protocol:** Server Message Block (SMB) | **Ports:** 139/TCP, 445/TCP A deep-dive reference for penetration testers and security researchers.
