@@ -5,17 +5,9 @@ date: "2021-06-15"
 subject: "CTF Writeup Template"
 keywords: [HTB, CTF, Hack The Box, Security, Offensive]
 lang: "en"
-titlepage: true
-title-page-color: "141d2b"
-titlepage-rule-color: "11b925"
-titlepage-text-color: "FFFFFF"
-toc: true
-toc-own-page: true
-titlepage-background: "./images/bg.pdf"
+
 ---
 
-
-*Everything below is just random stuff for the sake of example.*
 
 # Recon
 
