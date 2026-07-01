@@ -127,8 +127,11 @@ Finished
 - Oke giờ thì ta biết đây chỉ là trang default còn ip đang trỏ tới host 1 host khác là team.thm nó được gọi là **Virtual Hosting**(nơi 1 ip có thể host nhiều domain khác nhau). 
 - Trước tiên phải chỉnh file host trên attack machine để truy cập được vào domain này
 ![](../../05-Assets/Pasted%20image%2020260626124340.png)
-- Bây giờ đã có domain mới nên chúng sử dụng gobuster scan lại dir và dns có thể tồn tại trên domain này
-+dir
+- Bây giờ đã có domain mới nên chúng sử dụng gobuster scan lại dir có thể tồn tại trên domain này
+![](../../05-Assets/Pasted%20image%2020260701131229.png)
+- Check file robots.txt thì ta thấy có tên 1 user dale
+![](../../05-Assets/Pasted%20image%2020260701131310.png)
+
 
 
 
