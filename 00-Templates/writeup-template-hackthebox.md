@@ -100,6 +100,15 @@ The privilege escalation for this box was not hard, because this is an example a
 
 **Figure 3:** root.txt v5gw5zkh8rr3vmye7p4ka
 
+# Security Issues Identified
+
+| Vulnerability                        | Severity   | Impact |
+|--------------------------------------|------------|--------|
+| Unrestricted File Upload (Extension Bypass) | **Critical** | Cho phép attacker upload Web Shell (.php5) dẫn đến **Remote Code Execution (RCE)** và chiếm quyền điều khiển server |
+| Insecure File Upload Handling        | High       | Không kiểm tra loại file và extension chặt chẽ, cho phép thực thi mã PHP nguy hiểm |
+| Abusing SUID Binary (`python2.7`)    | High       | Cho phép user thấp (`www-data`) leo thang đặc quyền lên **root** |
+| Information Disclosure               | Medium     | Có thể leak thông tin (ví dụ: đường dẫn, phiên bản phần mềm) qua các trang web |
+
 
 # Conclusion
 In the conclusion sections I like to write a little bit about how the box seemed to me overall, where I struggled, and what I learned.

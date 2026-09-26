@@ -1,0 +1,4 @@
+-Team token
+peDQ0OqcHYjqpuOjCwAA0e3SZAEa3QEHbYbFJEwvoe77ivxxBsdPUdfJDqHysOhIQfMp4rfNum9N1V2L+s4mkL4dUs+FwUHleHps3jT3z3os2j6JX/rKrxK47cW6
+-Login URL
+https://nnsc.tf/login?token=peDQ0OqcHYjqpuOjCwAA0e3SZAEa3QEHbYbFJEwvoe77ivxxBsdPUdfJDqHysOhIQfMp4rfNum9N1V2L%2Bs4mkL4dUs%2BFwUHleHps3jT3z3os2j6JX%2FrKrxK47cW6
